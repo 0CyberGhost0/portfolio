@@ -61,12 +61,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      // X: {
-      //   name: "X",
-      //   url: "https://x.com/0xV3d",
-      //   icon: Icons.x,
-      //   navbar: true,
-      // },
+      X: {
+        name: "X",
+        url: "https://x.com/",
+        icon: Icons.x,
+        navbar: true,
+      },
       email: {
         name: "Send Email",
         url: "https://mail.google.com/mail/?view=cm&fs=1&to=prakashved0702@gmail.com",
