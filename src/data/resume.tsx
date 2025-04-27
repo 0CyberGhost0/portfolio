@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { Globe, GlobeIcon, HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Ved Prakash",
@@ -103,6 +103,36 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "BotIO 🤖",
+      href: "#",
+      active: true,
+      description:
+        "BotIO empowers users to create custom AI chatbots by training them with their own data sources like Docs, Sheets, and YouTube videos. Seamlessly embed your intelligent assistant into your website with a clean, modern integration experience.",
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "Tailwind CSS",
+        "Node.js",
+        "Prisma",
+        "Google Gemini API",
+        "Vercel",
+        "Clerk Auth",
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/0CyberGhost0/BotIo", // <-- Update this link
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Live",
+          href: "https://botio.vedcodes.me", // <-- Update this link
+          icon: <GlobeIcon className="size-3" />,
+        },
+      ],
+      image: "/botio.png"
+    },
+    {
       title: "StoreIt 📱",
       href: "#",
       active: true,
@@ -130,7 +160,7 @@ export const DATA = {
       image: "/storeit.png"
     },
     {
-      title: "Adhyayan",
+      title: "Adhyayan 🧑‍🏫",
       href: "#",
       active: true,
       description:
@@ -149,6 +179,11 @@ export const DATA = {
           type: "Source",
           href: "https://github.com/0CyberGhost0/Adhyayan",
           icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Live",
+          href: "https://adhyayan.vedcodes.me", // <-- Update this link
+          icon: <GlobeIcon className="size-3" />,
         },
       ],
       image: "/adhyayan.png",
