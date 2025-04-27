@@ -133,7 +133,7 @@ export const DATA = {
       image: "/botio.png"
     },
     {
-      title: "StoreIt 📱",
+      title: "StoreIt  📱",
       href: "#",
       active: true,
       description:
@@ -160,7 +160,7 @@ export const DATA = {
       image: "/storeit.png"
     },
     {
-      title: "Adhyayan 🧑‍🏫",
+      title: "Adhyayan  🧑‍🏫",
       href: "#",
       active: true,
       description:
@@ -187,6 +187,34 @@ export const DATA = {
         },
       ],
       image: "/adhyayan.png",
+      video: "",
+    },
+    {
+      title: "DocuMind  📑",
+      href: "#",
+      active: true,
+      description:
+        "An intelligent PDF assistant that allows users to upload documents and ask questions, powered by AI for instant, document-based insights.",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Prisma",
+        "AI (Gemini/LLM)",
+        "Clerk Auth"
+      ],
+      links: [
+        {
+          type: "Source",
+          href: "https://github.com/0CyberGhost0/DocuMind/",
+          icon: <Icons.github className="size-3" />,
+        },
+        {
+          type: "Live",
+          href: "https://documind.vedcodes.me",
+          icon: <GlobeIcon className="size-3" />,
+        },
+      ],
+      image: "/documind.png",
       video: "",
     },
     {
