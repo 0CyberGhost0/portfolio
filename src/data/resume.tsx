@@ -8,8 +8,9 @@ export const DATA = {
   location: "Varanasi, India",
   locationLink: "https://www.google.com/maps/place/Bhubaneswar",
   description: "Full Stack Developer",
+  resumeLink: "https://drive.google.com/file/d/1_29NzhTQ24qsy00tCcom8gNNESbRqfHB/view",
   summary:
-    "Aspiring Software Developer skilled in full-stack development with a strong foundation in problem-solving. I’ve built and contributed to several cross-platform applications using technologies like React , React Native,  Flutter, Node.js, PostgreSQL, and AWS. [I’ve solved over 1400 problems on LeetCode](https://leetcode.com/Ved07) and currently rank in the top 4% globally. I’m passionate about building scalable solutions, continuously learning new tools, and collaborating on impactful tech, [GitHub](https://github.com/CyberGhost0), [LinkedIn](https://www.linkedin.com/in/Ved0709/), or view my [Resume](https://drive.google.com/file/d/1_29NzhTQ24qsy00tCcom8gNNESbRqfHB/view?usp=drive_link).",
+    "Aspiring Software Developer skilled in full-stack development with a strong foundation in problem-solving. I’ve built and contributed to several cross-platform applications using technologies like React , React Native,  Flutter, Node.js, PostgreSQL, and AWS. [I’ve solved over 1400 problems on LeetCode](https://leetcode.com/Ved07) and currently rank in the top 4% globally. I’m passionate about building scalable solutions, continuously learning new tools, and collaborating on impactful tech, [GitHub](https://github.com/CyberGhost0), [LinkedIn](https://www.linkedin.com/in/Ved0709/).",
   avatarUrl: "/profile.png",
   skills: [
     "React Native",

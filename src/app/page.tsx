@@ -7,7 +7,9 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { DATA } from "@/data/resume";
+import { FileText } from "lucide-react";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -52,6 +54,30 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
+
+      <section id="resume">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Resume</h2>
+          </BlurFade>
+
+          <BlurFade delay={BLUR_FADE_DELAY * 6}>
+            <a
+              href={DATA.resumeLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-full"
+            >
+              <Button variant="default" className="w-full flex items-center justify-center gap-2">
+                <FileText className="h-4 w-4" />
+                View Resume
+              </Button>
+            </a>
+          </BlurFade>
+        </div>
+      </section>
+
+
 
 
 
@@ -230,6 +256,6 @@ export default function Page() {
 
       </section>
 
-    </main>
+    </main >
   );
 }
